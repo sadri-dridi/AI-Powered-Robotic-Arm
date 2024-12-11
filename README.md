@@ -20,3 +20,20 @@ This project showcases an AI-powered robotic arm capable of sorting objects and 
    ```bash
    git clone https://github.com/sadri-dridi/ai_powered_robotic_arm.git
    cd ai_powered_robotic_arm
+Install Python dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Upload the Arduino motor control script (src/control/motor_control.ino) to your Arduino board.
+
+Run the main program:
+
+bash
+Copy code
+python src/main.py
+Repository Structure
+src/: Core code for vision and control systems.
+datasets/: Training datasets and annotations for object detection.
+models/: Pre-trained YOLOv4 model weights.
+results/: Output metrics, visualizations, and demo videos.
