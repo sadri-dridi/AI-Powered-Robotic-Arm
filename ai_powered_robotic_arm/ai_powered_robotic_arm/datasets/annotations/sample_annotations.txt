@@ -1,0 +1,2 @@
+label x_center y_center width height
+0 0.5 0.5 0.2 0.2
